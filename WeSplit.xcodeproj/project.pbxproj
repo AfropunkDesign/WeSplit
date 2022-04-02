@@ -14,6 +14,8 @@
 		CEA89CC727F26CD000EFE535 /* WeSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA89CC627F26CD000EFE535 /* WeSplitTests.swift */; };
 		CEA89CD127F26CD000EFE535 /* WeSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA89CD027F26CD000EFE535 /* WeSplitUITests.swift */; };
 		CEA89CD327F26CD000EFE535 /* WeSplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA89CD227F26CD000EFE535 /* WeSplitUITestsLaunchTests.swift */; };
+		CEA987DE27F7DFDD008FFC80 /* wesplit_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA987DC27F7DFDD008FFC80 /* wesplit_1.png */; };
+		CEA987DF27F7DFDD008FFC80 /* wesplit_2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA987DD27F7DFDD008FFC80 /* wesplit_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,10 @@
 		CEA89CCC27F26CD000EFE535 /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA89CD027F26CD000EFE535 /* WeSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITests.swift; sourceTree = "<group>"; };
 		CEA89CD227F26CD000EFE535 /* WeSplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEA987D627F7DE71008FFC80 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEA987DC27F7DFDD008FFC80 /* wesplit_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wesplit_1.png; sourceTree = "<group>"; };
+		CEA987DD27F7DFDD008FFC80 /* wesplit_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wesplit_2.png; sourceTree = "<group>"; };
+		CEA987E027F7E1BE008FFC80 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 		CEA89CA927F26CCB00EFE535 = {
 			isa = PBXGroup;
 			children = (
+				CEA987E027F7E1BE008FFC80 /* .gitignore.md */,
+				CEA987D727F7DE9D008FFC80 /* Images */,
+				CEA987D627F7DE71008FFC80 /* README.md */,
 				CEA89CB427F26CCB00EFE535 /* WeSplit */,
 				CEA89CC527F26CD000EFE535 /* WeSplitTests */,
 				CEA89CCF27F26CD000EFE535 /* WeSplitUITests */,
@@ -125,6 +134,15 @@
 				CEA89CD227F26CD000EFE535 /* WeSplitUITestsLaunchTests.swift */,
 			);
 			path = WeSplitUITests;
+			sourceTree = "<group>";
+		};
+		CEA987D727F7DE9D008FFC80 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEA987DC27F7DFDD008FFC80 /* wesplit_1.png */,
+				CEA987DD27F7DFDD008FFC80 /* wesplit_2.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA89CBD27F26CD000EFE535 /* Preview Assets.xcassets in Resources */,
+				CEA987DE27F7DFDD008FFC80 /* wesplit_1.png in Resources */,
 				CEA89CBA27F26CD000EFE535 /* Assets.xcassets in Resources */,
+				CEA987DF27F7DFDD008FFC80 /* wesplit_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
